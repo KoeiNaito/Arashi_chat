@@ -1,0 +1,6 @@
+こんにちは, おはよう：greeting.wav, yoroshiku.wav
+からあげ：karaage.wav
+最近どう?：bochibochi.wav
+好き：laugh.wav
+大好き：laugh.wav
+お姉ちゃん：laugh.wav

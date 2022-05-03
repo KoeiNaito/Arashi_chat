@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="mobile.css" media="(min-width: 286px) and (max-width: 639px)" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+        <link rel="stylesheet" href="Chat.css" media="(min-width: 1024px)">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Caveat rel="stylesheet">
+        <title>Arashi-chan Chat</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <div class="arashi-head">
+            <a href="https://ensemble-stars.jp/characters/narukami_arashi/"><img src="arashi.jpeg" class="arashi-img-head"></a>
+            <h3>Arashi Narukami</h3>
+        </div>
+    </head>
+    <body>
+        <ul id="chat_details" class="chat-scroll">
+            <li class="arashi-message">
+                <p>適切な返答が帰ってくる言葉は、</p>
+                <p>・こんにちは</p>
+                <p>・はろー</p>
+                <p>・おはよう</p>
+                <p>・よろしくね</p>
+                <p>・よろしく</p>
+                <p>・からあげ</p>
+                <p>・お腹すいた</p>
+                <p>・最近どう?</p>
+                <p>・好き</p>
+                <p>・大好き</p>
+                <p>・愛してる</p>
+                <p>・鳴上嵐</p>
+                <p>・嵐ちゃん</p>
+                <p>・お疲れ様</p>
+                <p>・おやすみ</p>
+                <p>・おやすみなさい</p>
+                <p>・眠い</p>
+                <p>などがあります!! ぜひ試しに送信してみてください!!</p>
+            </li>
+        </ul>
+        <textarea id="message" rows="5" cols="33" placeholder="メッセージを入力"></textarea>
+        <button onclick="Get_message();" class="btns">送信</button>
+        <script type="text/javascript" src="Chat.js"></script>
+    </body>
+</html>

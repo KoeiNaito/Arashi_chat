@@ -1,0 +1,128 @@
+body {
+    background-color: #EDDE7B;
+}
+
+.arashi-img-head {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: gradationTest2 2s infinite;
+}
+
+.arashi-head {
+    width: 108%;
+    animation: gradationTest 2s infinite;
+    background-color: #dac436;
+    border-radius: 50px;
+    height: 80px;
+}
+
+h3 {
+    margin-left: 35%;
+    margin-top: -70px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+@keyframes gradationTest {
+    0% { border-bottom: 4px solid blue; }
+    50% { border-bottom: 4px solid #8390ff; }
+    100% { border-bottom: 4px solid #2c7bff; }
+}
+@keyframes gradationTest2 {
+    0% { border: 3px solid blue; }
+    50% { border: 3px solid #8390ff; }
+    100% { border: 3px solid #2c7bff; }
+}
+
+ul {
+    width: 100%;
+    height: 695px;
+}
+
+.chat-scroll {
+    overflow: auto;
+}
+
+.my-message {
+    margin-bottom: 2px;
+    margin-left: 100px;
+	position: relative;
+	display: inline-block;
+	width: 200px; 
+	text-align: center;
+	color:#FFF;
+	padding: 10px;
+	background-color: #f39800;
+	border-radius: 5px;
+}
+.my-message:before {
+	content: '';
+	position: absolute;
+	display: block;
+	z-index: 1;
+	border-style: solid;
+	border-color: transparent #f39800;
+	border-width: 10px 0 10px 10px;
+	top: 50%;
+	right: -10px;
+	margin-top: -10px;
+}
+
+.arashi-message {
+    margin-bottom: 4px;
+    position: relative;
+    display: inline-block;
+    width: 200px; 
+    text-align: center;
+    color:#FFF;
+    padding: 10px 2px;
+    background-color: #facd80;
+    border-radius: 5px;
+}
+.arashi-message:before {
+    content: '';
+    position: absolute;
+    display: block;
+    z-index: 1;
+    border-style: solid;
+    border-color: transparent #facd80;
+    border-width: 10px 10px 10px 0;
+    top: 50%;
+    left: -10px;
+    margin-top: -10px;
+}
+
+textarea {
+    border-radius: 12px;
+    border: 4px solid rgb(174, 174, 48);
+    height: 95px;
+    width: 85%;
+}
+
+.btns{
+    border-radius: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px;
+    margin-top: -35%;
+    width: 80px;
+    margin-left: 88%;
+	padding: 6px 25px;
+	color: #000000;
+	font-weight: bold;
+	letter-spacing: 0.5pt;
+	text-decoration: none;
+	background-color: #6ac0eb;
+	border: 1px solid #d9ff00;
+	cursor: pointer;
+	transition-duration:0.3s;
+    -webkit-transition-duration:0.3s;
+    -moz-transition-duration:0.3s;
+    -o-transition-duration:0.3s;
+    -ms-transition-duration:0.3s;
+} 
+.btns:hover{
+    color: #ffffff;
+    background-color: #160aa3;
+}
