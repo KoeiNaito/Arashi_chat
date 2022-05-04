@@ -42,6 +42,7 @@ function Get_message() {
         お姉ちゃん:file_sets[5], 
         鳴上嵐:file_sets[6], 
         嵐ちゃん:file_sets[6], 
+        疲れた:file_sets[2], 
         お疲れ様:file_sets[2], 
         おやすみ:file_sets[7], 
         おやすみなさい:file_sets[7], 
